@@ -118,12 +118,11 @@ __bold characters__
 #### Lists
 ##### Unordered Lists
 
-* Item 1
-* Item 2
+- Item 1
+- Item 2
 
-'* Item 1'
-
-'* Item 2'
+    -Item 1
+    -Item 2
 
 ##### Ordered Lists
 
