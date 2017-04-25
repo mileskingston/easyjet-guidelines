@@ -85,21 +85,19 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 #### Headings
 
 # Level 1 Heading
-'# Level 1 Heading' 
 ## Level 2 Heading
-'## Level 2 Heading'
-
-upto level 6 
+    ## Level 1 Heading
+    ## Level 2 Heading 
 
 #### Paragraphs
 
-Write text as normal. For a new line use '<return>'
+Write text as normal. For a new line use `<return>`
 
 This a paragraph. <return> This is a paragraph on a new line.
 
 #### Links
 
-`[`Title`]``(`URL`)` 
+    [Link Title](http://www.google.co.uk) 
 
 [Link Title](http://www.google.co.uk)
 
