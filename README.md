@@ -83,40 +83,34 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 ### .md formats
 
 #### Headings
-
 # Level 1 Heading
 ## Level 2 Heading
     ## Level 1 Heading
-    ## Level 2 Heading 
-
-#### Paragraphs
-
-Write text as normal. For a new line use `<return>`
-
-This a paragraph. <return> This is a paragraph on a new line.
+    ## Level 2 Heading
 
 #### Links
-
-    [Link Title](http://www.google.co.uk) 
-
-[Link Title](http://www.google.co.uk)
+[Click here](http://www.google.co.uk) for more information.
+    
+    [Click here](http://www.google.co.uk) for more information. 
 
 #### Quotes
-
-Use '>' before each quotation.
-
-e.g. > quotation
+> This is a quotation
+    > This is a quotation
 
 #### Character styles
+*Italic characters* 
+_Italic characters_
+**bold characters**
+__bold characters__
+~~strikethrough text~~
 
-`*`Italic characters`*` = *Italic characters* 
-`_`Italic characters`_` = _Italic characters_
-`**`bold characters`**` = **bold characters**
-`__`bold characters`__` = __bold characters__
-`~~`strikethrough text`~~` = ~~strikethrough text~~
+    *Italic characters*
+    _Italic characters_
+    **bold characters**
+    __bold characters__
+    ~~strikethrough text~~
 
 #### Lists
-
 Unordered Lists
 
 * Item 1
