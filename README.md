@@ -116,15 +116,15 @@ __bold characters__
     ~~strikethrough text~~
 
 #### Lists
-Unordered Lists
+##### Unordered Lists
 
 * Item 1
 * Item 2
 
-    * Item 1
-    * Item 2
+    '* Item 1
+    * Item 2'
 
-Ordered Lists
+##### Ordered Lists
 
 1. Step 1
 2. Step 2
@@ -132,21 +132,22 @@ Ordered Lists
 	1. Step 3.1
 	2. Step 3.2
 
-`1.` Step 1
-`2.` Step 2
-`3.` Step 3
-	`1.` Step 3.1
-	`2.` Step 3.2
+    '1. Step 1
+    2. Step 2
+    3. Step 3
+	   1. Step 3.1
+	   2. Step 3.2'
 
 #### Horizontal Rule
 
 They can be done three ways:
+
 ---
-One is Hyphens
+with hyphens
 ***
-Two is Asteriks
+with asteriks
 ___
-Lastly underscores
+or underscores
 
     They can be done three ways:
     ---
@@ -156,3 +157,14 @@ Lastly underscores
     ___
     Lastly underscores
 
+#### Tables
+
+Tables | Headers | First
+--- | :---: | ---:
+left aligned | centered | right aligned
+1 | 2 | 3
+
+    Table | Headers | First 
+    --- | :---: | ---:
+    left align | centered | right align
+    1 | 2 | 3
