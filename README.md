@@ -85,7 +85,7 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 #### Headings
 # Level 1 Heading
 ## Level 2 Heading
-    ## Level 1 Heading
+    # Level 1 Heading
     ## Level 2 Heading
 
 #### Links
@@ -100,19 +100,19 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 
 #### Character styles
 *Italic characters* 
+
 _Italic characters_
+
 **bold characters**
+
 __bold characters__
+
 ~~strikethrough text~~
 
     *Italic characters*
-
     _Italic characters_
-
     **bold characters**
-
     __bold characters__
-
     ~~strikethrough text~~
 
 #### Lists
@@ -121,8 +121,9 @@ __bold characters__
 * Item 1
 * Item 2
 
-    '* Item 1
-    * Item 2'
+'* Item 1'
+
+'* Item 2'
 
 ##### Ordered Lists
 
@@ -138,6 +139,12 @@ __bold characters__
 	   1. Step 3.1
 	   2. Step 3.2'
 
+#### Highlighting
+
+Put back quotes around what you want to `highlight`
+
+    Put back quotes around what you want to `highlight`
+
 #### Horizontal Rule
 
 They can be done three ways:
@@ -151,17 +158,17 @@ or underscores
 
     They can be done three ways:
     ---
-    One is Hyphens
+    with hyphens
     ***
-    Two is Asteriks
+    with asteriks
     ___
-    Lastly underscores
+    or underscores
 
 #### Tables
 
 Tables | Headers | First
 --- | :---: | ---:
-left aligned | centered | right aligned
+left align | centered | right align
 1 | 2 | 3
 
     Table | Headers | First 
