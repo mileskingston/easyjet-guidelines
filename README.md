@@ -80,12 +80,14 @@ These are some helpful commands you can use on the command line for working with
 
 BrowserSync should open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### MD formats
+### .md formats
 
 #### Headings
 
-'# Level 1 Heading' = # Level 1 Heading <return>
-'## Level 2 Heading' = ## Level 2 Heading
+# Level 1 Heading
+'# Level 1 Heading' 
+## Level 2 Heading
+'## Level 2 Heading'
 
 upto level 6 
 
