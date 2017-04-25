@@ -95,6 +95,7 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 
 #### Quotes
 > This is a quotation
+
     > This is a quotation
 
 #### Character styles
@@ -105,9 +106,13 @@ __bold characters__
 ~~strikethrough text~~
 
     *Italic characters*
+
     _Italic characters_
+
     **bold characters**
+
     __bold characters__
+
     ~~strikethrough text~~
 
 #### Lists
@@ -116,8 +121,8 @@ Unordered Lists
 * Item 1
 * Item 2
 
-`*` Item 1
-`*` Item 2
+    * Item 1
+    * Item 2
 
 Ordered Lists
 
@@ -132,3 +137,22 @@ Ordered Lists
 `3.` Step 3
 	`1.` Step 3.1
 	`2.` Step 3.2
+
+#### Horizontal Rule
+
+They can be done three ways:
+---
+One is Hyphens
+***
+Two is Asteriks
+___
+Lastly underscores
+
+    They can be done three ways:
+    ---
+    One is Hyphens
+    ***
+    Two is Asteriks
+    ___
+    Lastly underscores
+
