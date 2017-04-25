@@ -1,0 +1,35 @@
+.c-button {
+	appearance: none;
+  background-color: is(button, background);
+  border: transparent;
+  border-radius: em(2px);
+  color: is(button, text);
+  cursor: pointer;
+  font-family: $ej-font-stack;
+  @include font-size(12pt, 1);
+  font-weight: normal;
+  max-width: 100%;
+  min-height: em(34px);
+  padding: em(7px) em(10px) em(9px);
+  text-align: center;
+  white-space: normal;
+  width: 100%;
+
+  &:not(:disabled):active {
+    background-color: is(button, background);
+  }
+  &:not(:disabled):hover,
+  &:focus {
+    background-color: is(button, focus_background);
+  }
+
+  @include mq($from: 440px) {
+    width: auto;
+  }
+}
+
+
+
+
+
+

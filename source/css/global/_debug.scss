@@ -1,0 +1,266 @@
+// /* check for :not and [attr] support*/
+// html:not([☺]) {
+//   border: 10px solid green!important;
+// }
+
+// /* FUTURE */
+// body:not(:has(h1)) {
+//   outline: 10px solid red!important;
+// }
+// head:has(meta[name="viewport"][content*="user-scalable=no"])~body {
+//   outline: 10px solid red!important;
+// }  
+// head:has(meta[name="viewport"][content*="maximum-scale"])~body {
+//   outline: 10px solid red!important;
+// }  
+// head:has(meta[name="viewport"][content*="minimum-scale"])~body {
+//   outline: 10px solid red!important;
+// }
+// .FUTURE.FUTURE.FUTURE.FUTURE {
+//   outline: 10px solid red!important;
+// }
+
+// /* ERRORS */
+// html:not([lang]) {
+//   outline: 10px solid red!important;
+// }
+// [style]:not([style^="background-image"]) {
+//   outline: 10px solid red!important;
+// }
+// html[lang=""] {
+//   outline: 10px solid red!important;
+// }
+// a:empty {
+//   outline: 10px solid red!important;
+// }
+// button:empty {
+//   outline: 10px solid red!important;
+// }
+// ul:empty {
+//   outline: 10px solid red!important;
+// }
+// ol:empty {
+//   outline: 10px solid red!important;
+// }
+// li:empty {
+//   outline: 10px solid red!important;
+// }
+// label:not([for]) {
+//   outline: 10px solid red!important;
+// }
+// input:not([id]) {
+//   outline: 10px solid red!important;
+// }
+// select:not([id]) {
+//   outline: 10px solid red!important;
+// }
+// textarea:not([id]) {
+//   outline: 10px solid red!important;
+// }
+// input:not([name]) {
+//   outline: 10px solid red!important;
+// }  
+// select:not([name]) {
+//   outline: 10px solid red!important;
+// }  
+// textarea:not([name]) {
+//   outline: 10px solid red!important;
+// }
+// form:not([id]):not([name]) {
+//   outline: 10px solid red!important;
+// }
+// a:not([href]) {
+//   outline: 10px solid red!important;
+// }
+// a[href="#"] {
+//   outline: 10px solid red!important;
+// }
+// a[href^="javascript:"] {
+//   outline: 10px solid red!important;
+// }
+// img:not([alt]) {
+//   outline: 10px solid red!important;
+// }
+// a img[alt=""] {
+//   outline: 10px solid red!important;
+// }
+// input[type="image"]:not([alt]) {
+//   outline: 10px solid red!important;
+// }
+// input[type="image"][alt=""] {
+//   outline: 10px solid red!important;
+// }
+// [tabindex]:not([tabindex="-1"]):not([tabindex="0"]) {
+//   outline: 10px solid red!important;
+// }
+// [id*="header"]:not(header) {
+//   outline: 10px solid red!important;
+// }
+// .header:not(header),
+// .main-header:not(header),
+// .site-header:not(header) {
+//   outline: 10px solid red!important;
+// }
+// [id*="footer"]:not(footer) {
+//   outline: 10px solid red!important;
+// }
+// .footer:not(footer),
+// .main-footer:not(footer),
+// .site-footer:not(footer) {
+//   outline: 10px solid red!important;
+// }
+// [id*="main"]:not(main) {
+//   outline: 10px solid red!important;
+// }
+// [class*="main"]:not(main) {
+//   outline: 10px solid red!important;
+// }
+// header h1 {
+//   outline: 10px solid red!important;
+// }
+// header h2 {
+//   outline: 10px solid red!important;
+// }
+// header h3 {
+//   outline: 10px solid red!important;
+// }
+// header h4 {
+//   outline: 10px solid red!important;
+// }
+// header h5 {
+//   outline: 10px solid red!important;
+// }
+// header h6 {
+//   outline: 10px solid red!important;
+// }
+// EJ-specific
+// article {
+//   outline: 10px solid red!important;
+// }
+// section {
+//   outline: 10px solid red!important;
+// }
+// dialog {
+//   outline: 10px solid red!important;
+// }
+// dl {
+//   outline: 10px solid red!important;
+// }
+// dt {
+//   outline: 10px solid red!important;
+// }
+// dd {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h1 {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h2 {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h3 {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h4 {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h5 {
+//   outline: 10px solid red!important;
+// }
+// [role="tab"] h6 {
+//   outline: 10px solid red!important;
+// }
+// .ERROR.ERROR.ERROR.ERROR {
+//   outline: 10px solid red!important;
+// }
+
+// /* WARNINGS */
+// [title] {
+//   outline: 10px solid orange!important;
+// }
+// li:first-child:last-child {
+//   outline: 10px solid orange!important;
+// }
+// input[type="number"]:not([min]) {
+//   outline: 10px solid orange!important;
+// }
+// input[type="number"]:not([max]) {
+//   outline: 10px solid orange!important;
+// }
+// input[type="number"]:not([step]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="photo"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="picture"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="image"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="logo"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="arrow"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="bullet"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt*="icon"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt="null"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// img[alt="*"]:not([role="presentation"]) {
+//   outline: 10px solid orange!important;
+// }
+// h1:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// h2:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// h3:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// h4:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// h5:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// h6:not([class]) {
+//   outline: 10px solid orange!important;
+// }
+// .WARN.WARN.WARN.WARN {
+//   outline: 10px solid orange!important;
+// }
+
+// /* whitelist patternlab */
+// [class][class^="sg-"] {
+//   outline: none!important;
+// }
+// [class][class*=" sg-"] {
+//   outline: none!important;
+// }
+// [id][id^="sg-"] {
+//   outline: none!important;
+// }
+// .patternLink.patternLink {
+//   outline: none!important;
+// }
+// #__bs_notify__ {
+//   outline: none!important;
+// }
+// .sg-pattern-desc.sg-pattern-desc.sg-pattern-desc.sg-pattern-desc * {
+//   outline: none!important;
+// }
+// .sg-pattern-category.sg-pattern-category.sg-pattern-category.sg-pattern-category * {
+//   outline: none!important;
+// }
+// .RESET.RESET.RESET.RESET {
+//   outline: none!important;
+// }

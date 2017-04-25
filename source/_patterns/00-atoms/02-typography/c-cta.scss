@@ -1,0 +1,25 @@
+.c-cta {
+  appearance: none;
+  background-color: is(cta, background);
+  color: is(cta, text);
+  display: block;
+  @include font-size(12pt, 1);
+  font-weight: normal;
+  max-width: 100%;
+  min-height: em(34px);
+  padding: em(7px) em(10px) em(9px);
+  text-align: center;
+  white-space: normal;
+
+  &:not(:disabled):active {
+    background-color: is(cta, background);
+  }
+  &:not(:disabled):hover,
+  &:focus {
+    background-color: is(cta, focus_background);
+  }
+
+  @include mq($from: 440px) {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "c-breadcrumb": {
+    "items": [
+      {
+        "a": {
+          "random": "2",
+          "attr": {
+            "href": "#root"
+          }
+        }
+      },
+      {
+        "a": {
+          "random": "2",
+          "attr": {
+            "href": "#parent"
+          }
+        }
+      },
+      {
+        "random": "3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<!--[if lte IE 9]>
+{{> atoms-select select=datalist for=label.for}}
+<![endif]-->
+<![if gt IE 9]>
+{{> atoms-input}}
+{{> atoms-datalist}}
+<![endif]>

@@ -1,0 +1,45 @@
+{
+  "attr": {
+    "class": "c-field c-field--select"
+  },
+  "label": {
+    "text": "Select label",
+    "attr": {
+      "for": "select",
+      "class": "c-field__label"
+    }
+  },
+  "select": {
+    "options": [
+      {
+        "random": "3",
+        "attr": {
+          "value": "one"
+        }
+      },
+      {
+        "random": "3",
+        "attr": {
+          "value": "two"
+        }
+      },
+      {
+        "random": "5",
+        "attr": {
+          "value": "three"
+        }
+      },
+      {
+        "random": "4",
+        "attr": {
+          "value": "four"
+        }
+      }
+    ],
+    "attr": {
+      "id": "select",
+      "name": "select",
+      "class": "c-field__input"
+    }
+  }
+}

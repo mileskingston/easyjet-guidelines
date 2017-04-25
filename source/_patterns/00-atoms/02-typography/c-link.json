@@ -1,0 +1,9 @@
+{
+  "atoms-a": {
+    "attr": {
+      "href": "#test",
+      "class": "c-link"
+    },
+    "text": "Standalone link"
+  }
+}

@@ -1,0 +1,1325 @@
+{
+  "common": {
+    "c-header": {
+      "attr": {
+        "id": "header",
+        "tabindex": "-1",
+        "class": "c-header"
+      }
+    },
+    "c-logo": {
+      "a": {
+        "attr": {
+          "href": "/",
+          "class": "c-logo"
+        },
+        "img": {
+          "attr": {
+            "src": "/images/ej-transparent-x.png",
+            "alt": "easyJet homepage",
+            "width": "103",
+            "height": "25"
+          }
+        }
+      }
+    },
+    "c-navigation": {
+      "attr": {
+        "id": "navigation",
+        "tabindex": "-1",
+        "class": "c-navigation"
+      },
+      "ul": {
+        "items": [{
+          "attr": {
+            "role": "menuitem"
+          },
+          "a": {
+            "attr": {
+              "href": "#slug"
+            },
+            "random": "2"
+          },
+          "ul": {
+            "attr": {
+              "role": "menu"
+            },
+            "items": [
+              {
+                "attr": {
+                  "role": "menuitem"
+                },
+                "a": {
+                  "attr": {
+                    "href": "#slug"
+                  },
+                  "random": "2"
+                }
+              }
+            ]
+          },
+          "attr": {
+            "role": "menuitem"
+          },
+          "a": {
+            "attr": {
+              "href": "#slug"
+            },
+            "random": "2"
+          },
+          "ul": {
+            "attr": {
+              "role": "menu"
+            },
+            "items": [
+              {
+                "attr": {
+                  "role": "menuitem"
+                },
+                "a": {
+                  "attr": {
+                    "href": "#slug"
+                  },
+                  "random": "2"
+                }
+              }
+            ]
+          }
+        }]
+      }
+    },
+    "c-footer": {
+      "attr": {
+        "id": "footer",
+        "tabindex": "-1",
+        "class": "c-footer"
+      }
+    },
+    "footer-row": {
+      "attr": {
+        "class": "c-footer__row o-layout"
+      },
+      "h": {
+        "random": "3",
+        "attr": {
+          "class": "c-footer__heading u-hidden-visually"
+        }
+      }
+    },
+    "footer-columns": {
+      "attr": {
+        "class": "c-footer__column o-layout__item u-1/2@mobile u-1/4@tablet"
+      },
+      "h": {
+        "random": "2",
+        "attr": {
+          "class": "c-footer__column-heading"
+        }
+      },
+      "ul": {
+        "attr": {
+          "class": "c-footer__links"
+        }
+      }
+    },
+    "c-blob": {
+      "attr": {
+        "class": "c-blob"
+      },
+      "h": {
+        "attr": {
+          "class": "c-blob__title"
+        }
+      }
+    },
+    "ul": {
+      "attr": {
+        "class": "o-list"
+      }
+    },
+    "ol": {
+      "attr": {
+        "class": "o-list o-list--numbered"
+      }
+    },
+    "c-breadcrumb": {
+      "attr": {
+        "class": "c-breadcrumb"
+      },
+      "li": {
+
+      },
+      "a": {
+
+      }
+    },
+    "c-button": {
+      "random": "2",
+      "attr": {
+        "class": "c-button",
+        "type": "button"
+      }
+    },
+    "c-button-submit": {
+      "random": "1",
+      "attr": {
+        "class": "c-button",
+        "type": "submit"
+      }
+    },
+    "c-button--link": {
+      "random": "3",
+      "attr": {
+        "class": "c-button c-button--link",
+        "type": "button"
+      }
+    },
+    "c-button--inverse": {
+      "random": "2",
+      "attr": {
+        "class": "c-button c-button--inverse",
+        "type": "button"
+      }
+    },
+    "c-button--ghost": {
+      "random": "2",
+      "attr": {
+        "class": "c-button c-button--ghost",
+        "type": "button"
+      }
+    },
+    "c-button-reset--ghost": {
+      "random": "2",
+      "attr": {
+        "class": "c-button c-button--ghost",
+        "type": "reset"
+      }
+    },
+    "c-faqs": {
+      "attr": {
+        "class": "c-faqs"
+      },
+      "details": {
+        "attr": {
+          "class": "c-faqs__details"
+        }
+      },
+      "summary": {
+        "attr": {
+          "class": "c-faqs__summary"
+        }
+      },
+      "ul": {
+        "attr": {
+          "class": "c-faqs__list"
+        }
+      }
+    },
+    "c-page-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-page-heading"
+      }
+    },
+    "c-region-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-region-heading"
+      }
+    },
+    "c-section-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-section-heading"
+      }
+    },
+    "c-section-sub-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-section-sub-heading"
+      }
+    },
+    "c-sub-section-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-sub-section-heading"
+      }
+    },
+    "c-sub-section-sub-heading": {
+      "random": "3",
+      "attr": {
+        "class": "c-sub-section-sub-heading"
+      }
+    },
+    "c-page-heading--hidden": {
+      "random": "3",
+      "attr": {
+        "class": "u-hidden-visually"
+      }
+    },
+    "c-region-heading--hidden": {
+      "random": "3",
+      "attr": {
+        "class": "u-hidden-visually"
+      }
+    },
+    "c-section-heading--hidden": {
+      "random": "3",
+      "attr": {
+        "class": "u-hidden-visually"
+      }
+    },
+    "c-tabs": {
+      "attr": {
+        "class": "c-tabs"
+      }
+    },
+    "tab-list": {
+      "attr": {
+        "class": "c-tab__tab-list",
+        "data-x-role": "tablist"
+      },
+      "tab": {
+        "attr": {
+          "data-x-role": "presentation"
+        },
+        "h": {
+          "random": "3",
+          "level": "2",
+          "attr": {
+            "data-x-role":"tab",
+            "class": "c-tab__tab"
+          },
+          "a": {
+            "random": "1",
+            "attr": {
+              "class": "c-tab__link",
+              "data-x-aria-selected": "false"
+            }
+          }
+        }        
+      }
+    },
+    "tab-panel-list": {
+      "attr": {
+        "class": "c-tab__tab-panel-list"
+      },
+      "tab-panel": {
+        "attr": {
+          "class": "c-tab__tab-panel"
+        }
+      }
+    },
+    "c-image-grid": {
+      "attr": {
+        "class": "c-image-grid o-layout"
+      }
+    },
+    "c-image-tile": {
+      "attr": {
+        "class": "o-layout__item u-1/2@mobile u-1/3@tablet u-1/6@desktop"
+      },
+      "a": {
+        "attr": {
+          "class": "c-image-tile"
+        },
+        "p": {
+          "random": "2",
+          "attr": {
+            "class": "c-image-tile__title"
+          }
+        }
+      }
+    },
+    "c-links-list": {
+      "attr": {
+        "class": "c-links-list"
+      },
+      "h": {
+        "random": "3",
+        "attr": {
+          "class": "c-links-list__title"
+        },
+        "level": "2"
+      },
+      "ul": {
+        "attr": {
+          "class": "c-links-list__list"
+        }
+      },
+      "random": "13",
+      "a": {
+        "random": "3",
+        "attr": {
+          "class": "c-links-list__link"
+        }
+      }
+    },
+    "c-deal": {
+      "attr": {
+        "class": "c-deal"
+      },
+      "c-price": {
+        "attr": {
+          "class": "c-deal__price"
+        }
+      },
+      "c-date": {
+        "attr": {
+          "class": "c-deal__date"
+        }
+      }
+    },
+    "c-cta": {
+      "attr": {
+        "class": "c-cta"
+      }
+    },
+    "c-cta--arrow": {
+      "attr": {
+        "class": "c-cta c-cta--arrow"
+      }
+    },
+    "c-field": {
+      "attr": {
+        "class": "c-field"
+      },
+      "label": {
+        "attr": {
+          "class": "c-field__label"
+        }
+      },
+      "input": {
+        "attr": {
+          "class": "c-field__input"
+        }
+      }
+    },
+    "c-field--text": {
+      "attr": {
+        "class": "c-field c-field--text"
+      },
+      "label": {
+        "attr": {
+          "class": "c-field__label"
+        }
+      },
+      "input": {
+        "attr": {
+          "class": "c-field__input",
+          "type": "text"
+        }
+      }
+    },
+    "c-field--select": {
+      "attr": {
+        "class": "c-field c-field--select"
+      },
+      "label": {
+        "attr": {
+          "class": "c-field__label"
+        }
+      },
+      "select": {
+        "attr": {
+          "class": "c-field__input"
+        }
+      }
+    },
+    "c-field--checkbox": {
+      "attr": {
+        "class": "c-field c-field--checkbox"
+      },
+      "label": {
+        "attr": {
+          "class": "c-field__label"
+        }
+      },
+      "input": {
+        "attr": {
+          "class": "c-field__input",
+          "type": "checkbox"
+        }
+      }
+    },
+    "c-field--radio": {
+      "attr": {
+        "class": "c-field c-field--radio"
+      },
+      "label": {
+        "attr": {
+          "class": "c-field__label"
+        }
+      },
+      "input": {
+        "attr": {
+          "class": "c-field__input",
+          "type": "radio"
+        }
+      }
+    },
+    "zzz": {}
+  },
+  "content": {
+    "c-header": {
+      "c-logo": {
+        "a": {
+          "attr": {
+          },
+          "img": {
+            "attr": {
+            }
+          }
+        }
+      },
+      "c-navigation": {
+        
+      }
+    },
+    "c-footer": {
+      "footer-row": {
+        "h": {
+          "text": "Footer links"
+        },
+        "footer-columns": [
+          {
+            "h": {
+              "text": "Flight info"
+            },
+            "ul": {
+              "items": [
+                {
+                  "atoms-a": {
+                    "text": "Flight Tracker",
+                    "attr": {
+                      "href": "/en/flight-tracker"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Manage Bookings",
+                    "attr": {
+                      "href": "https://www.easyjet.com/EN/secure/MyEasyJet.mvc/SignIn"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Travel Guides",
+                    "attr": {
+                      "href": "/en/cheap-flights"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Where we fly",
+                    "attr": {
+                      "href": "/en/routemap"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Conquer your fear of flying",
+                    "attr": {
+                      "href": "http://fearlessflyer.easyjet.com"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "h": {
+              "text": "Customer service"
+            },
+            "ul": {
+              "items": [
+                {
+                  "atoms-a": {
+                    "text": "Accessibility",
+                    "attr": {
+                      "href": "/en/policy/accessibility"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Customer charter",
+                    "attr": {
+                      "href": "/en/help/booking/customer-charter"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Help",
+                    "attr": {
+                      "href": "/en/help"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Latest travel information",
+                    "attr": {
+                      "href": "/en/help/preparing-to-fly/latest-travel-information"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Site map",
+                    "attr": {
+                      "href": "/en/sitemap"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Special assistance",
+                    "attr": {
+                      "href": "/en/help/preparing-to-fly/special-assistance"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "h": {
+              "text": "About easyJet"
+            },
+            "ul": {
+              "items": [
+                {
+                  "atoms-a": {
+                    "text": "Advertise with us",
+                    "attr": {
+                      "href": "http://www.easyjet.com/partnerships?link=footer"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Careers",
+                    "attr": {
+                      "href": "http://careers.easyjet.com"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Company information",
+                    "attr": {
+                      "href": "http://corporate.easyjet.com/default.aspx"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Registered address",
+                    "attr": {
+                      "href": "http://www.easyjet.com/en/policy/registered-address"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "easyJet Spirit",
+                    "attr": {
+                      "href": "http://www.easyjet.com/en/spirit"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Orange Spirit",
+                    "attr": {
+                      "href": "/en/orange-spirit"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "h": {
+              "text": "The small print"
+            },
+            "ul": {
+              "items": [
+                {
+                  "atoms-a": {
+                    "text": "Acceptable use policy",
+                    "attr": {
+                      "href": "/en/policy/acceptable-use"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Cookie policy",
+                    "attr": {
+                      "href": "/en/policy/cookies"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Dangerous goods",
+                    "attr": {
+                      "href": "/en/terms-and-conditions/dangerous-goods"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Fees and charges",
+                    "attr": {
+                      "href": "/en/terms-and-conditions/fees"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Privacy policy",
+                    "attr": {
+                      "href": "/en/policy/privacy"
+                    }
+                  }
+                },
+                {
+                  "atoms-a": {
+                    "text": "Terms and conditions",
+                    "attr": {
+                      "href": "/en/terms-and-conditions"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "c-field": {
+      "datalist": {
+        "airports": {
+          "options": [
+            {
+              "text": "Aberdeen (ABZ)"
+            },
+            {
+              "text": "Agadir (AGA)"
+            },
+            {
+              "text": "Ajaccio (AJA)"
+            },
+            {
+              "text": "Alghero (AHO)"
+            },
+            {
+              "text": "Alicante (ALC)"
+            },
+            {
+              "text": "Almería (LEI)"
+            },
+            {
+              "text": "Amsterdam (AMS)"
+            },
+            {
+              "text": "Antalya (AYT)"
+            },
+            {
+              "text": "Athens (ATH)"
+            },
+            {
+              "text": "Barcelona (BCN)"
+            },
+            {
+              "text": "Bari (BRI)"
+            },
+            {
+              "text": "Basel/Mulhouse (BSL)"
+            },
+            {
+              "text": "Bastia (BIA)"
+            },
+            {
+              "text": "Belfast (BFS)"
+            },
+            {
+              "text": "Berlin (SXF)"
+            },
+            {
+              "text": "Biarritz (BIQ)"
+            },
+            {
+              "text": "Bilbao (BIO)"
+            },
+            {
+              "text": "Birmingham (BHX)"
+            },
+            {
+              "text": "Bodrum/Milas (BJV)"
+            },
+            {
+              "text": "Bologna (BLQ)"
+            },
+            {
+              "text": "Bordeaux (BOD)"
+            },
+            {
+              "text": "Bournemouth (BOH)"
+            },
+            {
+              "text": "Brest (BES)"
+            },
+            {
+              "text": "Brindisi (BDS)"
+            },
+            {
+              "text": "Bristol (BRS)"
+            },
+            {
+              "text": "Brussels (BRU)"
+            },
+            {
+              "text": "Budapest (BUD)"
+            },
+            {
+              "text": "Cagliari (CAG)"
+            },
+            {
+              "text": "Casablanca (CMN)"
+            },
+            {
+              "text": "Catania (CTA)"
+            },
+            {
+              "text": "Cephalonia (EFL)"
+            },
+            {
+              "text": "Chania (CHQ)"
+            },
+            {
+              "text": "Copenhagen (CPH)"
+            },
+            {
+              "text": "Corfu (CFU)"
+            },
+            {
+              "text": "Dalaman (DLM)"
+            },
+            {
+              "text": "Dortmund (DTM)"
+            },
+            {
+              "text": "Dubrovnik (DBV)"
+            },
+            {
+              "text": "Edinburgh (EDI)"
+            },
+            {
+              "text": "Essaouira (ESU)"
+            },
+            {
+              "text": "Faro (FAO)"
+            },
+            {
+              "text": "Figari (FSC)"
+            },
+            {
+              "text": "Fuerteventura (FUE)"
+            },
+            {
+              "text": "Funchal (FNC)"
+            },
+            {
+              "text": "Geneva (GVA)"
+            },
+            {
+              "text": "Gibraltar (GIB)"
+            },
+            {
+              "text": "Glasgow (GLA)"
+            },
+            {
+              "text": "Gran Canaria (LPA)"
+            },
+            {
+              "text": "Granada (GRX)"
+            },
+            {
+              "text": "Grenoble (GNB)"
+            },
+            {
+              "text": "Hamburg (HAM)"
+            },
+            {
+              "text": "Heraklion (HER)"
+            },
+            {
+              "text": "Hurghada (HRG)"
+            },
+            {
+              "text": "Ibiza (IBZ)"
+            },
+            {
+              "text": "Inverness (INV)"
+            },
+            {
+              "text": "Isle of Man (IOM)"
+            },
+            {
+              "text": "İzmir (ADB)"
+            },
+            {
+              "text": "Jersey (JER)"
+            },
+            {
+              "text": "Kalamata (KLX)"
+            },
+            {
+              "text": "Kos (KGS)"
+            },
+            {
+              "text": "Kraków (KRK)"
+            },
+            {
+              "text": "La Palma (SPC)"
+            },
+            {
+              "text": "La Rochelle (LRH)"
+            },
+            {
+              "text": "Lamezia Terme (SUF)"
+            },
+            {
+              "text": "Lanzarote (ACE)"
+            },
+            {
+              "text": "Larnaca (LCA)"
+            },
+            {
+              "text": "Lille (LIL)"
+            },
+            {
+              "text": "Lisbon (LIS)"
+            },
+            {
+              "text": "Liverpool (LPL)"
+            },
+            {
+              "text": "Ljubljana (LJU)"
+            },
+            {
+              "text": "London Gatwick (LGW)"
+            },
+            {
+              "text": "London Luton (LTN)"
+            },
+            {
+              "text": "London Southend (SEN)"
+            },
+            {
+              "text": "London Stansted (STN)"
+            },
+            {
+              "text": "Luxembourg City (LUX)"
+            },
+            {
+              "text": "Lyon (LYS)"
+            },
+            {
+              "text": "Madrid (MAD)"
+            },
+            {
+              "text": "Málaga (AGP)"
+            },
+            {
+              "text": "Malta (MLA)"
+            },
+            {
+              "text": "Manchester (MAN)"
+            },
+            {
+              "text": "Marrakesh (RAK)"
+            },
+            {
+              "text": "Marseille (MRS)"
+            },
+            {
+              "text": "Milan (LIN)"
+            },
+            {
+              "text": "Milan (MXP)"
+            },
+            {
+              "text": "Minorca (MAH)"
+            },
+            {
+              "text": "Montpellier (MPL)"
+            },
+            {
+              "text": "Munich (MUC)"
+            },
+            {
+              "text": "Murcia (MJV)"
+            },
+            {
+              "text": "Mykonos Island (JMK)"
+            },
+            {
+              "text": "Nantes (NTE)"
+            },
+            {
+              "text": "Naples (NAP)"
+            },
+            {
+              "text": "Newcastle upon Tyne (NCL)"
+            },
+            {
+              "text": "Nice (NCE)"
+            },
+            {
+              "text": "Olbia (OLB)"
+            },
+            {
+              "text": "Östersund (GOT)"
+            },
+            {
+              "text": "Oviedo/Gijón (OVD)"
+            },
+            {
+              "text": "Palermo (PMO)"
+            },
+            {
+              "text": "Palma de Mallorca (PMI)"
+            },
+            {
+              "text": "Paphos (PFO)"
+            },
+            {
+              "text": "Paris Charles de Gaulle (CDG)"
+            },
+            {
+              "text": "Paris Orly (ORY)"
+            },
+            {
+              "text": "Pisa (PSA)"
+            },
+            {
+              "text": "Ponta Delgada (PDL)"
+            },
+            {
+              "text": "Porto (OPO)"
+            },
+            {
+              "text": "Prague (PRG)"
+            },
+            {
+              "text": "Preveza/Lefkada (PVK)"
+            },
+            {
+              "text": "Pristina (PRN)"
+            },
+            {
+              "text": "Pula (PUY)"
+            },
+            {
+              "text": "Reykjavík (KEF)"
+            },
+            {
+              "text": "Rhodes (RHO)"
+            },
+            {
+              "text": "Rome (FCO)"
+            },
+            {
+              "text": "Salzburg (SZG)"
+            },
+            {
+              "text": "Santiago de Compostela (SCQ)"
+            },
+            {
+              "text": "Santorini (JTR)"
+            },
+            {
+              "text": "Seville (SVQ)"
+            },
+            {
+              "text": "Sofia (SOF)"
+            },
+            {
+              "text": "Split (SPU)"
+            },
+            {
+              "text": "Stockholm (ARN)"
+            },
+            {
+              "text": "Stuttgart (STR)"
+            },
+            {
+              "text": "Tallinn (TLL)"
+            },
+            {
+              "text": "Tel Aviv (TLV)"
+            },
+            {
+              "text": "Tenerife (TFS)"
+            },
+            {
+              "text": "Thessaloniki (SKG)"
+            },
+            {
+              "text": "Tivat (TIV)"
+            },
+            {
+              "text": "Toulouse (TLS)"
+            },
+            {
+              "text": "Turin (TRN)"
+            },
+            {
+              "text": "Valencia (VLC)"
+            },
+            {
+              "text": "Varna (VAR)"
+            },
+            {
+              "text": "Venice (VCE)"
+            },
+            {
+              "text": "Verona (VRN)"
+            },
+            {
+              "text": "Vienna (VIE)"
+            },
+            {
+              "text": "Zakynthos (SKG)"
+            },
+            {
+              "text": "Zürich (ZRH)"
+            }
+          ],
+          "attr": {
+            "class": "c-field__datalist",
+            "id": "destinations"
+          }
+        }
+      },
+      "select": {
+        "title": {
+          "attr": {
+            "class": "c-field c-field--select c-field--inline"
+          },
+          "label": {
+            "text": "Title",
+            "attr": {
+              "for": "title"
+            }
+          },
+          "select": {
+            "options": [
+              {
+
+              },
+              {
+                "text": "Mr",
+                "attr": {
+                  "value": "mr"
+                }
+              },
+              {
+                "text": "Mrs",
+                "attr": {
+                  "value": "mrs"
+                }
+              },
+              {
+                "text": "Ms",
+                "attr": {
+                  "value": "ms"
+                }
+              },
+              {
+                "text": "Miss",
+                "attr": {
+                  "value": "miss"
+                }
+              }
+            ],
+            "attr": {
+              "autocomplete": "honorific-prefix",
+              "id": "title",
+              "name": "title",
+              "required": ""
+            }
+          }
+        }
+      },
+      "text": {
+        "departure": {
+          "attr": {
+            "class": "c-field c-field--text c-field--datalist"
+          },
+          "label": {
+            "text": "From:",
+            "attr": {
+              "class": "c-field__label",
+              "for": "origin"
+            }
+          },
+          "input": {
+            "attr": {
+              "class": "c-field__input",
+              "id": "origin",
+              "list": "airports",
+              "name": "origin",
+              "type": "text"
+            }
+          }
+        },
+        "destination": {
+          "attr": {
+            "class": "c-field c-field--text c-field--datalist"
+          },
+          "label": {
+            "text": "To:",
+            "attr": {
+              "class": "c-field__label",
+              "for": "destination"
+            }
+          },
+          "input": {
+            "attr": {
+              "class": "c-field__input",
+              "id": "destination",
+              "name": "destination",
+              "type": "text",
+              "list": "airports"
+            }
+          }
+        },
+        "first-name": {
+          "label": {
+            "text": "First name",
+            "attr": {
+               "for": "firstname"
+            }
+          },
+          "input": {
+            "attr": {
+              "autocapitalize": "words",
+              "autocomplete": "given-name",
+              "autocorrect": "on",
+              "id": "firstname",
+              "name": "firstname",
+              "placeholder": "e.g. Robert",
+              "required": ""
+            }
+          }
+        },
+        "surname": {
+          "label": {
+            "text": "Surname",
+            "attr": {
+               "for": "surname"
+            }
+          },
+          "input": {
+            "attr": {
+              "autocapitalize": "words",
+              "autocomplete": "family-name",
+              "autocorrect": "on",
+              "id": "surname",
+              "name": "surname",
+              "placeholder": "e.g. Smith",
+              "required": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "root-attr": {},
+  "href": "#main",
+  "key": "value",
+  "key2": "use this for variables you want to load globally",
+  "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
+  "words": ["cupcake","cake","sweet","danish pastry","biscuit","ice cream","pie","pudding","tart","croissant","arctic roll","muffin","lollipop","caramel","lemon drops","toffee","chocolate","sherbet","jelly","jelly beans","marshmallow","marzipan","flumps","poppets","gummi bears","tootsie roll","liquorice","chupa chups","bonbon","dessert","sugar plum","waffles","apple pie","biscuit","wafer","chocolate bar","rock","gingerbread","doughnut","cheesecake","flapjacks","carrot cake","fruitcake","soufflé","tiramisu","chocolate cake","brownie","macaroon","icing","sprinkles","topping","walnut whip","sticky bun","sesame snaps","after eight","candyfloss","toffee popcorn","shortbread","matchmakers"],
+  "img": {
+    "avatar": {
+      "src": "http://placeimg.com/100/100/people",
+      "alt": "Avatar"
+    },
+    "square": {
+      "src": "http://placeimg.com/300/300/nature",
+      "alt": "Square"
+    },
+    "rectangle": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "Rectangle"
+    },
+    "landscape-4x3": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "4x3 Image"
+    },
+    "landscape-16x9": {
+      "src": "http://placeimg.com/640/360/tech",
+      "alt": "16x9 Image"
+    }
+  },
+  "headline": {
+    "short": "Lorizzle pimpin' dolizzle sit amet I",
+    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
+  },
+  "excerpt": {
+    "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+    "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
+    "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+  },
+  "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
+  "url": "http://lorizzle.nl/",
+  "name": {
+    "first": "Junius",
+    "firsti": "J",
+    "middle": "Marius",
+    "middlei": "M",
+    "last": "Koolen",
+    "lasti": "K"
+  },
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "January",
+    "short": "Jan",
+    "digit": "01"
+  },
+  "dayofweek": {
+    "long": "Sunday",
+    "short": "Sun"
+  },
+  "day": {
+    "long": "01",
+    "short": "1",
+    "ordinal": "st"
+  },
+  "hour": {
+    "long": "06",
+    "short": "6",
+    "military": "06",
+    "ampm": "am"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31"
+}

@@ -1,0 +1,27 @@
+{
+  "attr": {
+    "class": "c-field--select c-field--inline"
+  },
+  "label": {
+    "text": "{{ getFieldValue('titleFieldLabel') }}",
+    "attr": {
+      "for": "passengerTitle"
+    }
+  },
+  "select": {
+    "options": [
+      {
+        "text": "{{ getFieldValue('title') }}",
+        "attr": {
+          "*ngFor": "let title of titles",
+          "[value]": "title"
+        }
+      }
+    ],
+    "attr": {
+      "id": "passengerTitle",
+      "name": "passengerTitle",
+      "class": "qa-title-field"
+    }
+  }
+}

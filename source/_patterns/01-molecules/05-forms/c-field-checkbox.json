@@ -1,0 +1,14 @@
+{
+  "label": {
+    "random": "3",
+    "attr": {
+       "for": "field-checkbox"
+    }
+  },
+  "input": {
+    "attr": {
+      "id": "field-checkbox",
+      "name": "field-checkbox"
+    }
+  }
+}

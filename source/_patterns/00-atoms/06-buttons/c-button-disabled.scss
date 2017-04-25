@@ -1,0 +1,6 @@
+.c-button:disabled {
+  background-color: is(disabled, background);
+  border: none;
+  color: is(disabled, text);
+  cursor: not-allowed;
+}

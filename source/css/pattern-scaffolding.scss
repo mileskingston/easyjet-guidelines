@@ -1,0 +1,123 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+@import "global/utilities";
+@import "global/mixins";
+@import "global/colours";
+@import "global/debug";
+@import "global/config";
+
+#sg-patterns {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0 0.5em;
+}
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sg-colors {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sg-colors li {
+  flex: auto;
+  padding: 0.3em;
+  margin: 0 0.5em 0.5em 0;
+  width: 12.5%;
+  max-width: 7rem;
+  min-width: 5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sg-swatch {
+  display: block;
+  height: 4em;
+  margin-bottom: 0.3em;
+  border-radius: 5px;
+}
+
+.sg-label {
+  font-size: 70%;
+  line-height: 1;
+}
+
+@each $color, $hex in $brandcolours {
+  .sg-swatch-#{$color} {
+    background-color: $hex;
+  }
+  .sg-label-#{$color}:after {
+    content: "#{$hex}";
+    display: block;
+  }
+}
+
+.sg-modal-content-inner {
+    @include font-size(15px);
+}
+
+.sg-pattern-category-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sg-pattern-category-title a:hover {
+  text-decoration: underline;
+}
+
+.language-html {
+  text-shadow: none!important;
+}
+
+.sg-pattern-extra-inner div:first-child p:first-child {
+  margin-top: 0;
+}
+
+.sg-main .sg-pattern-category {
+  margin-top: 4rem; 
+}
+
+/* SG overrides */
+/* drawer patterns */
+[id*="ghost"] .sg-pattern-example {
+  padding: 10px;
+  background-color: is(drawer, background);
+}
+/* header patterns */
+[id="atoms-c-button--inverse"] .sg-pattern-example,
+[id="atoms-c-logo"] .sg-pattern-example {
+  padding: 10px;
+  background-color: is(header, background);
+
+  .c-logo {
+    line-height: inherit;
+    float: none;
+  }
+}
+/* hide handlebars panel */
+.sg-tabs-panel:nth-child(1) {
+  display: none!important;
+}
+.sg-tabs-list li:nth-child(1) {
+  display: none;
+}
+/* show HTML panel */
+.sg-tabs-list li:nth-child(2) a {
+  background: #f5f2f0 none repeat scroll 0 0;
+  color: #222;  
+}
+.sg-tabs-panel:nth-child(2) {
+  display: flex!important;
+}

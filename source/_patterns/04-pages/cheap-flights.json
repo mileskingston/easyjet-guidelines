@@ -1,0 +1,432 @@
+{
+  "title": "Cheap Flights | easyJet",
+  "c-page-heading": {
+    "text": "Cheap flights"
+  },
+  "c-region-heading": {
+    "text": "Looking for cheap flights?"
+  },
+  "c-blob-1": {
+    "p": {
+      "text": "<strong>Then you've come to the right place</strong>. Search our huge selection of low cost flights and deals. No matter what sort of travel you're planning we’ve got the flights to get you there."
+    }
+  },
+  "c-links-list": {
+    "h": {
+      "text": "New routes from the UK:"
+    },
+    "ul": {
+      "items": [
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/lgw/pvk" 
+            },
+            "text": "London Gatwick to Preveza"
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/lgw/puy"
+            },
+            "text": "London Gatwick to Pula"
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/ltn/ayt"
+            },
+            "text": "London Luton to Antalya"
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/ltn/bjv"
+            },
+            "text": "London Luton to Bodrum</a>"
+          }
+        }
+      ]
+    }
+  },
+  "c-image-grid": {
+    "ul": {
+      "li": {
+        "attr": {
+          "class": {
+            "u-1/6@desktop": false,
+            "u-1/4@desktop": true
+          }
+        }
+      },
+      "items": [
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/austria",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Austria.jpg?w=118&amp;as=1&amp;hash=DECAC17516384AE155B6C70811F22340B19C8F5A');"
+            },
+            "p": {
+              "text": "Austria"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/belgium",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/belgium.jpg?w=118&amp;as=1&amp;hash=0C3E6B7495D50FDEB02A0C3D2240F35EAB29CC02');"
+            },
+            "p": {
+              "text": "Belgium"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/bulgaria",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Bulgaria.jpg?w=118&amp;as=1&amp;hash=F9D03F44BE9C781BDAEE3B0AAD1F2F7B88909BAF');"
+            },
+            "p": {
+              "text": "Bulgaria"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/croatia",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Croatia/Croatia.jpg?w=118&amp;as=1&amp;hash=0DCDBC49D30C45851F1FEF58EE79ED14D9D32497');"
+            },
+            "p": {
+              "text": "Croatia"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/cyprus",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Cyprus.jpg?w=118&amp;as=1&amp;hash=2F078A7EDF4C1FE879F8E198558C99720411135B');"
+            },
+            "p": {
+              "text": "Cyprus"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/czech-republic",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Czech.jpg?w=118&amp;as=1&amp;hash=FDBB59295C21A663FC7100A9F55DE46ED3423435');"
+            },
+            "p": {
+              "text": "Czech Republic"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/denmark",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Denmark.jpg?w=118&amp;as=1&amp;hash=AD792C628D4460166C2F64CD0191F33CFDCFB93C');"
+            },
+            "p": {
+              "text": "Denmark"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/egypt",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Egypt.jpg?w=118&amp;as=1&amp;hash=EF5CE8313D335BCEE2A129B2B0C98A3A41D48F58');"
+            },
+            "p": {
+              "text": "Egypt"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/estonia",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Estonia.jpg?w=118&amp;as=1&amp;hash=3E1C33ECB004575B0636F87E346A2D40D672BB4E');"
+            },
+            "p": {
+              "text": "Estonia"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/france",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/France/France.jpg?w=118&amp;as=1&amp;hash=4DFBA687A6705A51F7D3BF469A3E15AF84054AD7');"
+            },
+            "p": {
+              "text": "France"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/germany",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Germany/Germany.jpg?w=118&amp;as=1&amp;hash=DF066101FA2ED218B80987C9950F9971E8A838DA');"
+            },
+            "p": {
+              "text": "Germany"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/greece",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Greece/Greece.jpg?w=118&amp;as=1&amp;hash=3030BC69149C955BF4C0BB0A9A95A5E20CB18F75');"
+            },
+            "p": {
+              "text": "Greece"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/hungary",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Hungary.jpg?w=118&amp;as=1&amp;hash=E7384ECEA0D712576A3B822EAB4777679CE7B043');"
+            },
+            "p": {
+              "text": "Hungary"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/iceland",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Iceland.jpg?w=118&amp;as=1&amp;hash=C2CDADA1A887AE8FBB9C65DA46BA02F6018EC35D');"
+            },
+            "p": {
+              "text": "Iceland"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/israel",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Israel.jpg?w=118&amp;as=1&amp;hash=8BDD26587852C7937424508DC8C0438D80BF4C53');"
+            },
+            "p": {
+              "text": "Israel"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/italy",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Italy/Italy.jpg?w=118&amp;as=1&amp;hash=54D93E43BE20EBC51F1F128F7F7F9233135DC173');"
+            },
+            "p": {
+              "text": "Italy"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/kosovo",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Kosovo.jpg?w=118&amp;as=1&amp;hash=14C8F07A807E4371EC7DCB3DE320B30C52750F01');"
+            },
+            "p": {
+              "text": "Kosovo"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/luxembourg",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Lux.jpg?w=118&amp;as=1&amp;hash=040D582F76F2C35CE70F093143EF3CFEA68BDEB6');"
+            },
+            "p": {
+              "text": "Luxembourg"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/maltese-islands",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Malta.jpg?w=118&amp;as=1&amp;hash=EC22DED1E28159749AD2A158AFFDD8CB74A43F01');"
+            },
+            "p": {
+              "text": "Maltese Islands"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/montenegro",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Montenegro.jpg?w=118&amp;as=1&amp;hash=CE12BF32B00B5FFA6BB09B87399C6CD8EB52BBFD');"
+            },
+            "p": {
+              "text": "Montenegro"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/morocco",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Morocco/Morocco.jpg?w=118&amp;as=1&amp;hash=B07DC2648D4C87210BDC88BE771ECBC25046581C');"
+            },
+            "p": {
+              "text": "Morocco"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/poland",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Poland.jpg?w=118&amp;as=1&amp;hash=7CB8952D39345A960AE1722403E7E4BB451A2441');"
+            },
+            "p": {
+              "text": "Poland"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/portugal",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Portugal/Portugal.jpg?w=118&amp;as=1&amp;hash=7A884A06556B6AD41AAFD7BC2E4672EC2B3DAD7E');"
+            },
+            "p": {
+              "text": "Portugal"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/russia",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Russia.jpg?w=118&amp;as=1&amp;hash=2C9F18FE395212480C466561AFA5952048C3BFD0');"
+            },
+            "p": {
+              "text": "Russia"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/serbia",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Serbia.jpg?w=118&amp;as=1&amp;hash=8978EBFAE48F870AFC627E65E05C24C768FCFA3B');"
+            },
+            "p": {
+              "text": "Serbia"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/slovenia",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Slovenia.jpg?w=118&amp;as=1&amp;hash=9DF0B771B6DA6BE13DD4981052D680CA9152E447');"
+            },
+            "p": {
+              "text": "Slovenia"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/spain",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Spain/Spain.jpg?w=118&amp;as=1&amp;hash=D6A3B8E243DF3172754680AB3438E4CF734D201D');"
+            },
+            "p": {
+              "text": "Spain"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/sweden",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Estonia.jpg?w=118&amp;as=1&amp;hash=3E1C33ECB004575B0636F87E346A2D40D672BB4E');"
+            },
+            "p": {
+              "text": "Sweden"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/switzerland",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/Switzerland/Switz.jpg?w=118&amp;as=1&amp;hash=B47C493E994AD1456ACFA166C601E95FF61BE18D');"
+            },
+            "p": {
+              "text": "Switzerland"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/netherlands",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Netherlands.jpg?w=118&amp;as=1&amp;hash=3AAD8DC273ABFD3BFF144EFAD81890F3731C9503');"
+            },
+            "p": {
+              "text": "The Netherlands"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/turkey",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Turkey.jpg?w=118&amp;as=1&amp;hash=AAB8ADB0968AC5BBBE4BF1A17443DD1466867EFD');"
+            },
+            "p": {
+              "text": "Turkey"
+            }
+          }
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/en/cheap-flights/uk",
+              "style": "background-image:url('http://easyjet.com/ejcms/cache/medialibrary/Images/Destination Guides Imagery/Cheap Flights Page/Destinations/UK/UK.jpg?w=118&amp;as=1&amp;hash=4389FB8810B578BE9EF603455B4E981CF446427A');"
+            },
+            "p": {
+              "text": "UK"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "easyjet-magasine-image-link": {
+    "attr": {
+      "href": "/en/easyjet-magazine"
+    },
+    "atoms-img": {
+      "attr": {
+        "src": "/images/sample/cover.jpg",
+        "alt": "easyJet Magasine"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{{#with c-breadcrumb}}
+<ul{{> utils-attr attr=(extend-attr @root.common.c-breadcrumb.attr attr)}}>
+  {{#each items}}
+  <li{{> utils-attr attr=(extend-attr @root.common.c-breadcrumb.li.attr attr)}}>
+    {{~#if a~}}
+    {{~#with a~}}
+    <a{{> utils-attr attr=(extend-attr @root.common.c-breadcrumb.a.attr attr)}}>
+      {{~> utils-ttt~}}
+    </a>
+    {{~/with~}}
+    {{~else~}}
+      {{~> utils-ttt~}}
+    {{~/if~}}
+  </li>
+  {{~/each~}}
+</ul>
+{{~/with}}

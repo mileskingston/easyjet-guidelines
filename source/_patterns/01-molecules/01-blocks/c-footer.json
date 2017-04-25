@@ -1,0 +1,231 @@
+{
+  "c-footer": {
+    "footer-row": {
+      "h": {
+        "random": "2"
+      },
+      "footer-columns": [
+        {
+          "h": {
+            "random": "2"
+          },
+          "ul": {
+            "items": [
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/flight-tracker"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "https://www.easyjet.com/EN/secure/MyEasyJet.mvc/SignIn"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/cheap-flights"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/routemap"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://fearlessflyer.easyjet.com"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "h": {
+            "random": "2"
+          },
+          "ul": {
+            "items": [
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/policy/accessibility"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/help/booking/customer-charter"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/help"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/help/preparing-to-fly/latest-travel-information"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/sitemap"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/help/preparing-to-fly/special-assistance"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "h": {
+            "random": "2"
+          },
+          "ul": {
+            "items": [
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://www.easyjet.com/partnerships?link=footer"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://careers.easyjet.com"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://corporate.easyjet.com/default.aspx"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://www.easyjet.com/en/policy/registered-address"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "http://www.easyjet.com/en/spirit"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/orange-spirit"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "h": {
+            "random": "2"
+          },
+          "ul": {
+            "items": [
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/policy/acceptable-use"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/policy/cookies"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/terms-and-conditions/dangerous-goods"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/terms-and-conditions/fees"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/policy/privacy"
+                  }
+                }
+              },
+              {
+                "atoms-a": {
+                  "random": "2",
+                  "attr": {
+                    "href": "/en/terms-and-conditions"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

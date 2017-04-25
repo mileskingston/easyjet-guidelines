@@ -1,0 +1,10 @@
+    {{~#each footer-columns}}
+      <div{{> utils-attr attr=(extend-attr @root.common.footer-columns.attr attr)}}>
+        <h3{{> utils-attr attr=(extend-attr @root.common.footer-columns.h.attr h.attr)}}>{{> utils-ttt h}}</h3>
+        <ul{{> utils-attr attr=(extend-attr @root.common.footer-columns.ul.attr ul.attr)}}>
+        {{~#each ul.items}}
+          {{> atoms-li}}
+        {{/each}}
+        </ul>
+      </div>
+    {{~/each}}

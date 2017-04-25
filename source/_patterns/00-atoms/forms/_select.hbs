@@ -1,0 +1,7 @@
+{{#with select ~}}
+<select{{> utils-attr}}>
+  {{#each options as |option|}}
+  {{> atoms-option}}
+  {{/each}}
+</select>
+{{/with}}

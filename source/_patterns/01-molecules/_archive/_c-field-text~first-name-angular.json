@@ -1,0 +1,19 @@
+{
+  "attr": {
+    "class": "c-field--text c-field--inline"
+  },
+  "label": {
+    "text": "{{ getFieldValue('firstNameFieldLabel') }}",
+    "attr": {
+       "for": "firstName"
+    }
+  },
+  "input": {
+    "attr": {
+      "id": "firstName",
+      "name": "firstName",
+      "[formControl]": "firstNameControl",
+      "class": "qa-firstName-field"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: $ej-font-name;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/easyjet_rounded_book-webfont.woff') format('woff'), 
+    url('../fonts/easyjet_rounded_book-webfont.ttf') format('truetype');
+}
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+    font-family: $ej-font-stack;
+    @include font-size(13pt);
+    margin: 0;
+    position: relative;
+}
+
+input, textarea, select, button {
+    font-family: $ej-font-stack;
+}
+
+a {
+    color: is(main, link);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+a[href]:focus,
+area[href]:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex="0"]:focus {
+    @include focus;
+}
+
+svg,
+.c-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 0;
+  width: 1em;
+}
+
+pre {
+  background-color: is(pre, background);
+  overflow: auto;
+}

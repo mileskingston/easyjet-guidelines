@@ -1,0 +1,7 @@
+{{#with atoms-ol}}
+<ol{{> utils-attr attr=(extend-attr @root.common.ol.attr attr)}}>
+  {{~#each items}}
+  {{> atoms-li}}
+  {{~/each}}
+</ol>
+{{/with}}

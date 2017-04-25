@@ -1,0 +1,12 @@
+<div{{> utils-attr attr=(extend-attr @root.common.c-field--select.attr attr)}}>
+  {{#with label~}}
+  <label{{> utils-attr attr=(extend-attr @root.common.c-field--select.label.attr attr)}}>{{> utils-ttt}}</label>
+  {{/with~}}
+  {{~#with select}}
+  <select{{> utils-attr attr=(extend-attr @root.common.c-field--select.select.attr attr)}}>
+    {{#each options as |option|~}}
+    <option{{> utils-attr attr=(extend-attr @root.common.c-field--select.select.option.attr attr)}}>{{> utils-ttt}}</option>
+    {{/each~}}
+  </select>
+  {{/with~}}
+</div>

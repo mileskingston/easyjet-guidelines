@@ -1,0 +1,14 @@
+.c-button--inverse {
+  background-color: is(button_inverse, background);
+  color: is(button_inverse, text);
+
+  &:not(:disabled):active {
+    background-color: is(button_inverse, focus_background);
+    color: is(button_inverse, focus_text);
+  }
+  &:not(:disabled):hover,
+  &:focus {
+    background-color: is(button_inverse, focus_background);
+    color: is(button_inverse, focus_text);
+  }
+}

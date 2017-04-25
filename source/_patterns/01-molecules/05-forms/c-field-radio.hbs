@@ -1,0 +1,8 @@
+<div{{> utils-attr attr=(extend-attr @root.common.c-field--radio.attr attr)}}>
+  {{~#with input}}
+  <input{{> utils-attr attr=(extend-attr @root.common.c-field--radio.input.attr attr)}}>
+  {{~/with}}
+  {{~#with label}}
+  <label{{> utils-attr attr=(extend-attr @root.common.c-field--radio.label.attr attr)}}>{{> utils-ttt}}</label>
+  {{~/with}}
+</div>

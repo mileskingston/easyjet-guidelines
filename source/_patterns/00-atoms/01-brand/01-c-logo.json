@@ -1,0 +1,15 @@
+{
+  "c-logo": {
+    "a": {
+      "attr": {
+        "href": "https://www.easyjet.com/en/",
+        "target": "_top"
+      },
+      "img": {
+        "attr": {
+          "alt": "easyJet homepage"
+        }
+      }
+    }
+  }
+}

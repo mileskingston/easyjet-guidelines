@@ -1,0 +1,17 @@
+{
+  "label": {
+    "text": "Text input",
+    "attr": {
+       "for": "field-text"
+    }
+  },
+  "input": {
+    "attr": {
+      "id": "field-text",
+      "name": "field-text",
+      "type": "text",
+      "placeholder": "Placeholder text",
+      "required": "required"
+    }
+  }
+}

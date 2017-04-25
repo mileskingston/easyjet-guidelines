@@ -1,0 +1,14 @@
+{{#with c-navigation}}
+<nav{{> utils-attr attr=(extend-attr @root.common.c-navigation.attr attr)}}>
+  {{#with ul~}}
+  <ul{{> utils-attr attr=(extend-attr @root.common.c-navigation.ul.attr attr)}}>
+    {{#each items}}
+    <li{{> utils-attr attr=(extend-attr @root.common.c-navigation.ul.li.attr attr)}}>
+      {{> utils-ttt atoms-a=a}}
+      {{> utils-ttt atoms-ul=ul}}
+    </li>
+    {{/each}}
+  </ul>
+  {{~/with}}
+</nav>
+{{/with}}

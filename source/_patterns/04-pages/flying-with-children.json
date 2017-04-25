@@ -1,0 +1,78 @@
+{
+  "title": "Flying with children | easyJet",
+  "c-header": {},
+  "c-breadcrumb": {
+    "items": [
+      {
+        "a": {
+          "text": "Help",
+          "attr": {
+            "href": "/en/help"
+          }
+        }
+      },
+      {
+        "a": {
+          "text": "Preparing to fly",
+          "attr": {
+            "href": "/en/help/preparing-to-fly"
+          }
+        }
+      },
+      {
+        "text": "Flying with Children"
+      }
+    ]
+  },
+  "c-page-heading": {
+    "text": "What do I need to know about flying with children?"
+  },
+  "c-blob-1": {
+    "items": [
+      {
+        "atoms-p": {
+          "text": "We want to make travelling with children easier, and to support this we will promise that:"
+        }
+      },
+      {
+        "atoms-ul": {
+          "items": [
+            {
+              "text": "If you’re travelling with children under 5, we’ll board you early;"
+            },
+            {
+              "text": "You can bring two items for free including a push chair, buggy or car seat;"
+            },
+            {
+              "text": "You can choose your seats in advance to ensure you sit together;"
+            },
+            {
+              "text": "We have kids snack packs onboard, with games to keep kids entertained;"
+            },
+            {
+              "text": "We support breastfeeding mothers and you can feed your baby on board at any time"
+            }
+          ]
+        }
+      },
+      {
+        "atoms-p": {
+          "text": "To help you, here’s how we differentiate between infants and children:"
+        }
+      },
+      {
+        "atoms-ul": {
+          "items": [
+            {
+              "text": "An infant is anyone younger than 2 years old; and a child is 2 years and above."
+            },
+            {
+              "text": "At 16 they are considered an adult."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "c-footer": {}
+}

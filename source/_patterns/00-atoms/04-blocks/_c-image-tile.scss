@@ -1,0 +1,26 @@
+.c-image-tile {
+  background-position: center top;
+  background-size: cover;
+  display: block;
+  height: 0;
+  margin-top: $spc;
+  padding-top: (9 / 16) * 100%;
+  position: relative;
+
+  &:focus,
+  &:hover {
+    .c-image-tile__title {
+      text-decoration: underline;
+    }
+  }
+}
+
+.c-image-tile__title {
+  background-color: is(image_tile, background);
+  bottom: 0;
+  color: is(image_tile, text);
+  margin-bottom: $h-spc;
+  padding: $h-spc $h-spc;
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+<div{{> utils-attr attr=(extend-attr @root.common.c-field--text.attr attr)}}>
+  {{~#with label}}
+  <label{{> utils-attr attr=(extend-attr @root.common.c-field--text.label.attr attr)}}>{{> utils-ttt}}</label>
+  {{~/with}}
+  {{~#with input}}
+  <input{{> utils-attr attr=(extend-attr @root.common.c-field--text.input.attr attr)}}>
+  {{~/with}}
+</div>

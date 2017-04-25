@@ -1,0 +1,11 @@
+{{#with c-header~}}
+<header{{> utils-attr attr=(extend-attr @root.common.c-header.attr attr)}}>
+	<button class="i-menu c-button--mobile">
+		<svg class="c-icon">
+			<use xlink:href="../../images/icons.svg#i-menu"></use>
+		</svg>
+	</button>
+  {{> atoms-c-logo c-logo=(extend @root.content.c-header.c-logo c-logo)}}
+  {{> molecules-c-navigation c-navigation=(extend @root.content.c-header.c-navigation c-navigation)}}
+</header>
+{{~/with}}

@@ -1,0 +1,15 @@
+{{#with c-image-grid.ul~}}
+<ul{{> utils-attr attr=(extend-attr @root.common.c-image-grid.attr attr)}}>
+  {{#each items~}}
+  <li{{> utils-attr attr=(extend-attr @root.common.c-image-tile.attr ../li/attr)}}>
+    {{~#with a~}}
+    <a{{> utils-attr attr=(extend-attr @root.common.c-image-tile.a.attr attr)}}>
+      {{~#with p~}}
+      <p{{> utils-attr attr=(extend-attr @root.common.c-image-tile.a.p.attr attr)}}>{{> utils-ttt}}</p>
+      {{~/with~}}
+    </a>
+    {{~/with~}}
+  </li>
+  {{~/each}}
+</ul>
+{{/with}}

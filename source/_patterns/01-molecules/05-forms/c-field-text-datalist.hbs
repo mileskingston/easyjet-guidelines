@@ -1,0 +1,23 @@
+<div{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.attr attr)}}>
+  {{#with label~}}
+  <label{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.label.attr attr)}}>{{> utils-ttt}}</label>
+  {{/with~}}
+  {{~#with datalist}}
+<!--[if lte IE 9]>
+  <select{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.select.attr attr)}}>
+<![endif]-->
+<![if gt IE 9]>
+  <input{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.input.attr attr)}}>
+  <datalist{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.datalist.attr attr)}}>
+<![endif]>
+    {{#each options as |option|~}}
+    <option{{> utils-attr attr=(extend-attr @root.common.c-field--text-datalist.datalist.option.attr attr)}}>{{> utils-ttt}}</option>
+    {{/each~}}
+  <!--[if lte IE 9]>
+  </select>
+  <![endif]-->
+  <![if gt IE 9]>
+  </datalist>
+  <![endif]>
+  {{/with~}}
+</div>

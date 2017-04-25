@@ -1,0 +1,16 @@
+.c-cta--arrow {
+  padding-right: 1.4em;
+
+  &:after {
+    border: 2px solid currentColor;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    height: 0.5em;
+    margin-left: 0.25em;
+    margin-top: 0.4em;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 0.5em;
+  }
+}

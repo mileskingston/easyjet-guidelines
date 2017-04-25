@@ -1,0 +1,7 @@
+{{#with datalist ~}}
+<datalist{{> utils-attr}}>
+  {{#each options as |option|}}
+  {{> atoms-option}}
+  {{/each}}
+</datalist>
+{{/with}}

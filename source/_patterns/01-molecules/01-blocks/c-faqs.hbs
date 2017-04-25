@@ -1,0 +1,18 @@
+{{#with c-faqs}}
+<div{{> utils-attr attr=(extend-attr @root.common.c-faqs.attr attr)}}>
+<ul{{> utils-attr attr=(extend-attr @root.common.c-faqs.ul.attr attr)}}>
+{{#each items}}
+  <li{{> utils-attr attr=(extend-attr @root.common.c-faqs.ul.li.attr attr)}}>
+  {{#with details}}
+    <details{{> utils-attr attr=(extend-attr @root.common.c-faqs.details.attr attr)}}>
+    {{#with ../summary}}
+      <summary{{> utils-attr attr=(extend-attr @root.common.c-faqs.summary.attr attr)}}>{{> utils-ttt}}</summary>
+    {{/with}}
+    {{> utils-ttt}}
+    </details>
+  {{/with}}
+  </li>
+{{/each}}
+</ul>
+</div>
+{{/with}}

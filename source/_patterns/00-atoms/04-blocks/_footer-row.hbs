@@ -1,0 +1,6 @@
+{{#with footer-row}}
+  <div{{> utils-attr attr=(extend-attr @root.common.footer-row.attr attr)}}>
+    <h2{{> utils-attr attr=(extend-attr @root.common.footer-row.h.attr attr)}}>{{> utils-ttt h}}</h2>
+    {{> atoms-footer-columns}}
+  </div>
+{{/with}}

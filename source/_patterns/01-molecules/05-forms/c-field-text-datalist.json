@@ -1,0 +1,62 @@
+{
+  "label": {
+    "text": "Pick:",
+    "attr": {
+      "for": "destination"
+    }
+  },
+  "input": {
+    "attr": {
+      "id": "destination",
+      "list": "destinations",
+      "name": "destination",
+      "type": "text"
+    }
+  },
+  "select": {
+    "attr": {
+      "id": "destination",
+      "name": "destination"
+    }
+  },
+  "datalist": {
+    "attr": {
+      "id": "destinations"
+    },
+    "options": [
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      },
+      {
+        "random": "2"
+      }
+    ]
+  }
+}

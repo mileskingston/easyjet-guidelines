@@ -1,0 +1,45 @@
+.c-drawer {
+	a {
+		color: is(drawer, link);
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	a[href]:focus, 
+	button:focus, 
+	input:focus, 
+	[tabindex="0"]:focus {
+		outline: 1px dotted is(drawer, tab_border);
+    outline-offset: 2px;
+	}
+}
+
+.c-drawer__list {
+	margin: 0;
+
+	li {
+	  margin-bottom: 2px;
+	  padding: 8px 10px;
+	  list-style-type: none;
+	  @include font-size(12pt);
+	  color: is(drawer_list, text);
+	  border-left: 3px solid is(drawer_list, border);
+	  background-color: is(drawer_list, background);
+	  cursor: pointer;
+
+	  > span {
+	  	display: block;
+	  	margin-top: 4px;
+	  }
+	}
+
+	h4.this-needs-a-class-to-separate-heading-level-from-appearance {
+		margin-top: 0;
+		margin-bottom: 0;
+		@include font-size(12pt);
+		font-weight: normal;
+	}
+}

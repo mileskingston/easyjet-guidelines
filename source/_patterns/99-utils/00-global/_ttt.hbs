@@ -1,0 +1,24 @@
+{{~#if items~}}{{> utils-items}}{{~/if~}}
+{{~#if atoms-ul~}}{{> atoms-ul}}{{~/if~}}
+{{~#if atoms-ol~}}{{> atoms-ol}}{{~/if~}}
+{{~#if atoms-a~}}{{> atoms-a}}{{~/if~}}
+{{~#if atoms-c-cta~}}{{> atoms-c-cta}}{{~/if~}}
+{{~#if atoms-p~}}{{> atoms-p}}{{~/if~}}
+{{~#if atoms-img~}}{{> atoms-img}}{{~/if~}}
+{{~#if atoms-h1~}}{{> atoms-h1}}{{~/if~}}
+{{~#if atoms-h2~}}{{> atoms-h2}}{{~/if~}}
+{{~#if atoms-block~}}{{> atoms-block}}{{~/if~}}
+{{~#if atoms-h3~}}{{> atoms-h3}}{{~/if~}}
+{{~#if atoms-h4~}}{{> atoms-h4}}{{~/if~}}
+{{~#if atoms-h5~}}{{> atoms-h5}}{{~/if~}}
+{{~#if atoms-h6~}}{{> atoms-h6}}{{~/if~}}
+{{~#if atoms-c-page-heading~}}{{> atoms-c-page-heading}}{{~/if~}}
+{{~#if atoms-c-region-heading~}}{{> atoms-c-region-heading}}{{~/if~}}
+{{~#if atoms-c-section-heading~}}{{> atoms-c-section-heading}}{{~/if~}}
+{{~#if atoms-c-section-sub-heading~}}{{> atoms-c-section-sub-heading}}{{~/if~}}
+{{~#if atoms-c-sub-section-heading~}}{{> atoms-c-sub-section-heading}}{{~/if~}}
+{{~#if atoms-c-sub-section-sub-heading~}}{{> atoms-c-sub-section-sub-heading}}{{~/if~}}
+{{~#if atoms-span~}}{{> atoms-span}}{{~/if~}}
+{{~#if (and random (not text))~}}{{> utils-random}}{{~else~}}
+{{~#if text~}}{{{text}}}{{~else~}}
+{{headline.short}}{{~/if~}}{{~/if~}}

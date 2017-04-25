@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheap Flights - easyJet</title>
+</head>
+<body>
+{{> molecules-c-header @root.content}}
+<div class="o-wrapper">
+  <div class="o-layout">
+    <main class="o-layout__item u-2/3@desktop">
+      {{> atoms-c-page-heading c-page-heading}}
+      {{> atoms-c-region-heading c-region-heading}}
+      {{> atoms-c-blob c-blob=c-blob-1}}
+      {{> molecules-c-links-list c-links-list}}
+      {{> molecules-c-image-grid}}
+    </main>
+    <aside class="o-layout__item u-1/3@desktop">
+      {{> atoms-a atoms-a=easyjet-magasine-image-link}}
+    </aside>
+  </div>
+</div>
+{{> molecules-c-footer @root.content}}
+</body>
+</html>

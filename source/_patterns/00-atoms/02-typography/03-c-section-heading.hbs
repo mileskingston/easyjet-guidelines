@@ -1,0 +1,11 @@
+{{#if tag~}}
+<{{tag}}
+{{~else~}}
+<h3
+{{~/if}}
+{{> utils-attr attr=(extend-attr @root.common.c-section-heading.attr attr)}}>{{> utils-ttt}}
+{{~#if tag~}}
+</{{tag}}>
+{{~else~}}
+</h3>
+{{~/if}}

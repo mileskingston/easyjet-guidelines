@@ -1,0 +1,40 @@
+{
+  "c-faqs": {
+    "ul": {
+      "items": [
+        {
+          "details": {
+            "random": "18"
+          },
+          "summary": {
+            "random": "3"
+          }
+        },
+        {
+          "details": {
+            "random": "14"
+          },
+          "summary": {
+            "random": "4"
+          }
+        },
+        {
+          "details": {
+            "random": "20"
+          },
+          "summary": {
+            "random": "6"
+          }
+        },
+        {
+          "details": {
+            "random": "14"
+          },
+          "summary": {
+            "random": "4"
+          }
+        }
+      ]
+    }
+  }
+}

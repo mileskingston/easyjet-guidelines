@@ -1,0 +1,7 @@
+{{#with atoms-ul}}
+<ul{{> utils-attr attr=(extend-attr @root.common.ul.attr attr)}}>
+  {{~#each items}}
+  {{> atoms-li}}
+  {{~/each}}
+</ul>
+{{/with}}

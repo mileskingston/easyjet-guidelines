@@ -1,0 +1,16 @@
+{
+  "label": {
+    "text": "Radio input one",
+    "attr": {
+      "for": "field-radio-one"
+    }
+  },
+  "input": {
+    "attr": {
+      "id": "field-radio-one",
+      "name": "field-radio",
+      "value": "1",
+      "checked": ""
+    }
+  }
+}

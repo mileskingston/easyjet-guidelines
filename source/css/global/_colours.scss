@@ -1,0 +1,207 @@
+@function brand($which){
+  /* returns a brand colour from $brandcolours by name */
+  /* should not be used directly from components, use $colourmapping to map colours to a state/element instead */
+  @if(map-has-key($brandcolours, $which)){
+    @return map-get($brandcolours, $which);
+  } @else {
+    @warn "#{$which} not in $brandcolours";
+    @return $which;
+  }
+}
+@function is($state, $element:text){
+  /* returns a brand colour from $colourmapping map by state/location and element */
+  @if(map-has-key($colourmapping, $state)){
+    $temp: map-get($colourmapping, $state);
+    @if(is-map($temp)) {
+      @if(map-has-key($temp, $element)) {
+        @return map-get($temp, $element);
+      } @else {
+        @warn "#{$element} not in $colourmapping.#{$state}";
+        @return purple;
+      }
+    } @else {
+      /* fallback for non-mapped colours */
+      @return $temp;
+    }
+  } @else {
+    @warn "#{$state} not in $colourmapping";
+    @return pink;
+  }
+}
+
+$brandcolours: (
+  orange_dark_20: darken(#FA6900, 20%),
+  red: #f00,
+  orange: #FA6900,
+  orange_highlight: #f93,
+  orange_light_20: lighten(#FA6900, 20%),
+  orange_light_40: lighten(#FA6900, 40%),
+  yellow: #ff0,
+  green: #008000,
+  flexi_blue: #3caaa1,
+  black: #000,
+  grey_33: #333,
+  grey_66: #666,
+  grey_99: #999,
+  grey_cc: #ccc,
+  grey_e4: #e4e4e4,
+  grey_f2: #f2f2f2,
+  white: #fff,
+  none: transparent
+);
+
+$colourmapping: (
+  basket: (
+    background: brand(grey_f2),
+    heading: brand(grey_33),
+    link: brand(orange),
+    text: brand(grey_66),
+    text_bold: brand(grey_33),
+    separator: brand(grey_e4),
+    flexi_text_color: brand(flexi_blue),
+    flight_details_decorator: brand(grey_99),
+  ),
+  breadcrumb: (
+    text: brand(grey_33),
+    link: brand(orange),
+    divider: brand(grey_99),
+  ),
+  button: (
+    text: brand(white),
+    background: brand(orange),
+    focus_background: brand(orange_highlight),
+    link: brand(orange),
+  ),
+  button_inverse: (
+    text: brand(orange),
+    background: brand(white),
+    focus_text: brand(white),
+    focus_background: brand(grey_33)
+  ),
+  button_ghost: (
+    text: brand(white),
+    border: brand(orange),
+    background: brand(black),
+    focus_background: brand(orange_dark_20),
+  ),
+  clickable: (
+    text: brand(orange),
+    highlight: brand(orange_highlight),
+  ),
+  cta: (
+    text: brand(white),
+    background: brand(orange),
+    focus_background: brand(orange_highlight),
+  ),
+  cta_highlight: (
+    text: brand(white),
+    background: brand(orange_highlight),
+  ),
+  cta_secondary: (
+    background: brand(black),
+    border: brand(white),
+    text: brand(white),
+  ),
+  disabled: (
+    text: brand(grey_e4),
+    background: brand(grey_99),
+  ),
+  drawer: (
+    text: brand(white),
+    background: brand(black),
+    link: brand(orange),
+    close_background: brand(grey_cc),
+    highlight: brand(yellow),
+    error: brand(yellow),
+    tab_border: brand(white),
+    disabled: brand(grey_99),
+    focus: brand(white),
+  ),
+  drawer_list: (
+    text: brand(grey_99),
+    border: brand(orange),
+    background: brand(grey_33),
+    valid: brand(orange),
+  ),
+  drawer_list_selected: (
+    text: brand(white),
+    background: brand(orange),
+  ),
+  field: (
+    background: brand(white),
+    border: brand(grey_cc),
+    placeholder: brand(grey_99),
+    text: brand(grey_33),
+    thumb: brand(orange),
+    blob_border: brand(grey_cc),
+    blob_checked: brand(orange),
+    blob: brand(orange_light_20),
+    error: brand(red)
+  ),
+  field_focus: (
+    background: brand(white),
+    border: brand(orange),
+    text: brand(black),
+    blob_checked: brand(orange_highlight),
+    blob: brand(orange_light_40),
+  ),
+  flight_grid_fare: (
+    background_focus: brand(grey_f2),
+    border: brand(grey_cc),
+  ),
+  flight_grid_fare_selected: (
+    background: brand(orange),
+    border: brand(none),
+    text: brand(white),
+  ),
+  footer: (
+    background: brand(grey_33),
+    text: brand(white),
+    link: brand(white),
+  ),
+  header: (
+    text: brand(white),
+    background: brand(orange),
+  ),
+  megamenu: (
+    background: brand(black),
+    text: brand(white)
+  ),
+  helping_hand: (
+    text: brand(grey_33),
+    background: brand(grey_e4),
+    link: brand(orange),
+  ),
+  image_tile: (
+    text: brand(white),
+    background: brand(orange),
+  ),
+  links_list: (
+    text: brand(orange),
+    divider: brand(grey_99),
+  ),
+  main: (
+    text: brand(grey_33),
+    background: brand(white),
+    link: brand(orange),
+  ),
+  pre: (
+    background: brand(grey_e4),
+  ),
+  shelf: (
+    background: brand(grey_e4),
+    link: brand(orange),
+    text: brand(grey_e4),
+  ),
+  title: (
+    text: brand(white),
+    background: brand(grey_33),
+    link: brand(orange),
+    icon: brand(orange),
+  ),
+  error: brand(red),
+  focus: brand(black),
+  transparent: brand(none),
+  valid: brand(green),
+  warn: brand(orange),
+);

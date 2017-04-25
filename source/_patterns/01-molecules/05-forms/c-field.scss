@@ -1,0 +1,146 @@
+::placeholder {
+  color: is(field, placeholder);
+}
+
+.c-field {
+  @include font-size(12pt);
+}
+.c-field--text {	
+}
+
+.c-field__input {
+	max-width: 100%;
+	padding: 0 6px; 
+	height: 35px;
+	border: 1px solid is(field, border);
+	background-color: is(field, background);
+}
+label,
+.c-field__label {
+	display: inline-block;
+	margin-bottom: 4px;
+	width: 100%;
+	color: is(field, text);
+}
+
+.c-field--select {	
+}
+
+.c-field--checkbox,
+.c-field--radio {
+	position: relative;
+}
+
+/* Checkbox/ Radio */
+$inputType: 'input[type="checkbox"]', 'input[type="radio"]';
+
+@each $type in $inputType {
+	#{$type} + label {
+		line-height: 30px;
+		cursor: pointer;
+		margin-bottom: 0;
+	}
+
+	#{$type}:checked,
+	#{$type}:not(:checked) {
+	  width: 29px;
+	  height: 29px;
+	  position: absolute;
+	  left: 1px;
+	  top: 1px;
+	  margin: 0;
+	  z-index: -1;
+	}
+
+	#{$type}:checked + label::before,
+	#{$type}:not(:checked) + label::before {
+		content: "✓";
+		display: inline-block;
+		vertical-align: middle;
+		width: 29px;
+		height: 29px;
+		margin-right: 10px;
+		font-weight: bold;
+		text-align: center;
+		border: 1px solid is(field, border);
+		color: is(field, blob);
+	}
+
+	#{$type}:checked:disabled + label::before,
+	#{$type}:not(:checked):disabled + label::before {
+		color: is(disabled, text);
+		background-color: is(disabled, background);
+	}
+	#{$type}:checked:disabled + label,
+	#{$type}:not(:checked):disabled + label	{
+		cursor: not-allowed;
+	}
+}
+
+/* Checkbox */
+input[type=checkbox]:checked + label::before,
+input[type=checkbox]:not(:checked) + label::before {
+	border-radius: 2px;
+	background-color: is(field, background);
+}
+input[type=checkbox]:checked + label::before {
+	color: is(field, blob_checked);
+}
+input[type=checkbox]:not(:checked):hover + label::before {
+	color: is(field_focus, blob);
+}
+
+/* Radio */
+input[type=radio]:checked + label::before,
+input[type=radio]:not(:checked) + label::before {
+	content: "";
+	border-radius: 50%;
+	background-color: is(field, blob);
+}
+input[type=radio]:checked + label::before {
+	background-color: is(field, blob_checked);
+}
+input[type=radio]:not(:checked):not(:disabled):hover + label::before {
+	background-color: is(field_focus, blob);
+}
+
+
+/* Validation */
+
+.c-error {
+	display: none;
+}
+
+.has-focused {
+	.c-error {
+		color: is(field, error);
+	}
+
+	input[type='text']:required:not(:focus):invalid {
+		background: url('../images/icons/i-exclamation.svg') no-repeat; 
+		background-position: 97% 50%;
+		background-size: 14px;
+	}
+
+	$input-list: input, textarea, select;
+
+	@each $input in $input-list {
+		#{$input}:required:not(:focus):invalid {
+			border-color: is(field, error);
+
+			& + .c-error {
+				display: block;
+			}
+		}
+	}
+}
+
+// input[type=text][required]:valid {
+// 	// background: url('../../../../images/icons/i-tick-green.svg') no-repeat 95%;
+// 	// background-size: 14px;
+// }
+// input[type=text][required]:not(:focus):invalid {
+// 	// background-color: red;
+// 	// background: url($imageurl + 'icons/i-tick-green.svg') no-repeat 95%;
+// 	// background-size: 14px;
+// }

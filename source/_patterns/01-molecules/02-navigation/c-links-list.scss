@@ -1,0 +1,30 @@
+.c-links-list {
+  margin-top: $d-spc;
+}
+
+.c-links-list__list {
+  font-size: 0;
+  list-style-type: none;
+  margin-left: -$h-spc;
+
+  > li {
+    border-right: 1px solid is(links_list, divider);
+    display: inline-block;
+    @include font-size(12pt);
+    padding: 0 $h-spc;
+
+    &:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+}
+
+.c-links-list__title {
+  @include font-size(12pt);
+  margin-bottom: 0.25rem;
+}
+
+.c-links-list__link {
+  color: is(links_list, text);
+}

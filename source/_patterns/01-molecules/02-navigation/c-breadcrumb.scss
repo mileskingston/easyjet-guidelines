@@ -1,0 +1,33 @@
+.c-breadcrumb {
+  display: none;
+  list-style-type: none;
+  margin: $spc 0;
+  padding: 0;
+
+  li {
+    color: is(breadcrumb, text);
+    display: inline;
+  }
+  a {
+    color: is(breadcrumb, link);
+    margin-right: 0.5em;
+    padding-right: 1em;
+
+    &:after {
+      border: 2px solid is(breadcrumb, divider);
+      border-left-color: transparent;
+      border-top-color: transparent;
+      content: "";
+      height: 0.5em;
+      margin-left: 0.25em;
+      margin-top: 0.4em;
+      position: absolute;
+      transform: rotate(-45deg);
+      width: 0.5em;
+    }
+  }
+
+  @include mq($from: 500px){
+    display: block;
+  }
+}

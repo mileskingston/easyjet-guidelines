@@ -1,0 +1,16 @@
+{
+  "c-blob":{
+    "h": {
+      "random": "5"
+    },
+    "p": {
+      "random": "18"
+    },
+    "cta": {
+      "attr": {
+        "href": "#cta"
+      },
+      "random": "2"
+    }
+  }
+}

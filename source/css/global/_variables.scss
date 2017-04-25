@@ -1,0 +1,17 @@
+// $global-radius: 3px !default;
+// $global-transition: (1/3) + s !default;
+
+// $z-index-scale: (content, header);
+
+$ej-header-img: '../images/header.gif';
+$ej-header-logo: '../images/ej-transparent-x.png';
+$ej-btn-mobile: '../images/icons.svg#i-menu';
+
+$ej-font-name: "easyjet_rounded_bookRg";
+$ej-font-stack: $ej-font-name, sans-serif;
+$spc: $inuit-global-spacing-unit;
+$h-spc: $spc / 2;
+$q-spc: $spc / 4;
+$d-spc: $spc * 2;
+
+$head-height: 50px!default;

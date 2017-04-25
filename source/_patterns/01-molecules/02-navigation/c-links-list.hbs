@@ -1,0 +1,20 @@
+<div{{> utils-attr attr=(extend-attr @root.common.c-links-list.attr attr)}}>
+  {{~#with h}}
+  <h{{#if level}}{{level}}{{else}}2{{/if}}{{> utils-attr attr=(extend-attr @root.common.c-links-list.h.attr attr)}}>
+    {{~> utils-ttt~}}
+  </h{{#if level}}{{level}}{{else}}2{{/if}}>
+  {{~/with}}
+  {{~#with ul}}
+  <ul{{> utils-attr attr=(extend-attr @root.common.c-links-list.ul.attr attr)}}>
+    {{~#each items}}
+    <li>
+      {{~#with a~}}
+      <a{{> utils-attr attr=(extend-attr @root.common.c-links-list.a.attr attr)}}>
+        {{~> utils-ttt~}}
+      </a>
+      {{~/with~}}
+    </li>
+    {{~/each~}}
+  </ul>
+  {{~/with~}}
+</div>

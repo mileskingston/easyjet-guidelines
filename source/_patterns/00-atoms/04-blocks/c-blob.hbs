@@ -1,0 +1,16 @@
+{{#with c-blob}}
+<div{{> utils-attr attr=(extend-attr @root.common.c-blob.attr attr)}}>
+  {{#if h~}}
+    {{> utils-ttt atoms-h2=(extend @root.common.c-blob.h h)}}
+  {{~/if}}
+  {{#if p~}}
+    {{> utils-ttt atoms-p=p}}
+  {{~/if}}
+  {{#if cta~}}
+    {{> utils-ttt atoms-c-cta=(extend @root.common.c-blob.cta cta)}}
+  {{~/if}}
+  {{#if items~}}
+    {{> utils-ttt}}
+  {{~/if}}
+</div>
+{{/with}}

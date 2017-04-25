@@ -1,0 +1,71 @@
+{
+  "ul": {
+    "items": [
+      {
+        "text": "Candy canes cake marshmallow dragée tootsie roll apple pie"
+      },
+      {
+        "text": "Tart chocolate bar sugar plum pie"
+      },
+      {
+        "atoms-a": {
+          "attr": {
+            "href": "#cotton-candy"
+          },
+          "text": "Cotton candy gummies tart"
+        }
+      },
+      {
+        "text": "Jujubes pastry sesame snaps chocolate bar"
+      },
+      {
+        "text": "Croissant cake chocolate cake jelly beans"
+      },
+      {
+        "atoms-ol": {
+          "items": [
+            {
+              "text": "One item"
+            },
+            {
+              "text": "Two item"
+            },
+            {
+              "text": "Three item"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Chocolate chupa chups sweet roll"
+      },
+      {
+        "text": "Gingerbread sesame snaps"
+      },
+      {
+        "text": "Brownie bonbon jelly lemon drops candy canes"
+      }
+    ]
+  },
+  "ol": {
+    "items": [
+      {
+        "text": "First step"
+      },
+      {
+        "text": "Second step"
+      },
+      {
+        "text": "Third step"
+      },
+      {
+        "atoms-a": {
+          "attr": {
+            "href": "#cotton-candy"
+          },
+          "text": "Forth step"
+        }
+      }
+    ]
+  }
+}

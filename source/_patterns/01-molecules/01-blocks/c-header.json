@@ -1,0 +1,158 @@
+{
+  "c-header": {
+    "c-navigation": {
+      "ul": {
+        "attr": {
+          "role": "menubar"
+        },
+        "items": [
+          {
+            "attr": {
+              "role": "menuitem"
+            },
+            "a": {
+              "attr": {
+                "href": "#slug"
+              },
+              "random": "2"
+            },
+            "ul": {
+              "attr": {
+                "role": "menu"
+              },
+              "items": [
+                {
+                  "attr": {
+                    "role": "menuitem"
+                  },
+                  "a": {
+                    "attr": {
+                      "href": "#slug"
+                    },
+                    "random": "2"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "attr": {
+              "role": "menuitem"
+            },
+            "a": {
+              "attr": {
+                "href": "#slug"
+              },
+              "random": "2"
+            },
+            "ul": {
+              "attr": {
+                "role": "menu"
+              },
+              "items": [
+                {
+                  "attr": {
+                    "role": "menuitem"
+                  },
+                  "a": {
+                    "attr": {
+                      "href": "#slug"
+                    },
+                    "random": "2"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "attr": {
+              "role": "menuitem"
+            },
+            "a": {
+              "attr": {
+                "href": "#slug"
+              },
+              "random": "2"
+            },
+            "ul": {
+              "attr": {
+                "role": "menu"
+              },
+              "items": [
+                {
+                  "attr": {
+                    "role": "menuitem"
+                  },
+                  "a": {
+                    "attr": {
+                      "href": "#slug"
+                    },
+                    "random": "2"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "attr": {
+              "role": "menuitem"
+            },
+            "a": {
+              "attr": {
+                "href": "#slug"
+              },
+              "random": "2"
+            },
+            "ul": {
+              "attr": {
+                "role": "menu"
+              },
+              "items": [
+                {
+                  "attr": {
+                    "role": "menuitem"
+                  },
+                  "a": {
+                    "attr": {
+                      "href": "#slug"
+                    },
+                    "random": "2"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "attr": {
+              "role": "menuitem"
+            },
+            "a": {
+              "attr": {
+                "href": "#slug"
+              },
+              "random": "2"
+            },
+            "ul": {
+              "attr": {
+                "role": "menu"
+              },
+              "items": [
+                {
+                  "attr": {
+                    "role": "menuitem"
+                  },
+                  "a": {
+                    "attr": {
+                      "href": "#slug"
+                    },
+                    "random": "2"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

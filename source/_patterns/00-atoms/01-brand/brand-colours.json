@@ -1,0 +1,77 @@
+{
+  "attr": {
+    "class": "sg-colors"
+  },
+  "colours": [
+  	{
+  		"title": "Red",
+  		"name": "red"
+  	},
+    {
+      "title": "Orange (darkened 20%)",
+      "name": "orange_dark_20"
+    },
+  	{
+  		"title": "Orange",
+  		"name": "orange"
+  	},
+  	{
+  		"title": "Orange (highlight)",
+  		"name": "orange_highlight"
+  	},
+    {
+      "title": "Orange (lightened 20%)",
+      "name": "orange_light_20"
+    },
+    {
+      "title": "Orange (lightened 40%)",
+      "name": "orange_light_40"
+    },
+  	{
+  		"title": "Yellow",
+  		"name": "yellow"
+  	},
+    {
+      "title": "Green",
+      "name": "green"
+    },
+    {
+      "title": "Blue",
+      "name": "flexi_blue"
+    }
+  ],
+  "greys": [
+    {
+      "title": "Black",
+      "name": "black"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_33"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_66"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_99"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_cc"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_e4"
+    },
+    {
+      "title": "Grey",
+      "name": "grey_f2"
+    },
+    {
+      "title": "White",
+      "name": "white"
+    }
+  ]
+}

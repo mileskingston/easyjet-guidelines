@@ -1,0 +1,16 @@
+.c-button--ghost {
+  background-color: is(button_ghost, background);
+  border: 1px solid is(button_ghost, border);
+  color: is(button_ghost, text);
+
+  &:not(:disabled):active {
+    background-color: is(button_ghost, focus_background);
+  }
+  &:focus {
+    outline-color: is(drawer, focus);
+  }
+  &:not(:disabled):hover,
+  &:focus {
+    background-color: is(button_ghost, focus_background);
+  }
+}
